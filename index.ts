@@ -3,6 +3,10 @@ const app = express();
 
 import { PORT } from './constants/app';
 
+app.get('/', (req, res) => {
+  res.json({ message: 'Hello, World!' });
+});
+
 const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
