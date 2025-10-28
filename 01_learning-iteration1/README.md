@@ -11,50 +11,51 @@ I will like to pick up learning backend development again. I learnt from the Mos
 🚀 Comprehensive Node.js Development Course
 Embark on a journey to master Node.js with this in-depth course covering everything from basics to advanced concepts. Perfect for beginners and intermediate developers looking to level up their backend skills!
 
-📚 What You'll Learn:
-Node.js Fundamentals & Module System
-NPM & Package Management
-Core Modules (Path, File System, HTTP)
-Asynchronous Programming & Event-Driven Architecture
-Express.js for Web Apps & RESTful APIs
-Template Engines (EJS)
-Database Integration with MongoDB & Mongoose
-Authentication, Authorization & JWT
-File Uploads with Multer & Cloudinary
-Real-time Apps with Socket.io
-Deployment (Render, Vercel)
-GraphQL APIs
-TypeScript in Node.js Development
-Book Store API (CRUD operations)
-Real-time Chat Application
+### 📚 What You'll Learn:
 
-⭐▬▬▬▬▬▬ TIMESTAMPS 👋  ▬▬▬▬▬▬⭐
+- Node.js fundamentals & module system
+- NPM & package management
+- Core modules: Path, File System, HTTP
+- Asynchronous programming & event-driven architecture
+- Express.js for web apps & RESTful APIs
+- Template engines (EJS)
+- Database integration with MongoDB & Mongoose
+- Authentication, authorization & JWT
+- File uploads with Multer & Cloudinary
+- Real-time apps with Socket.io
+- Deployment (Render, Vercel)
+- GraphQL APIs
+- TypeScript in Node.js development
+- Book Store API (CRUD operations)
+- Real-time chat application
 
-00:00 Intro & demo
-06:23 Installing node js
-09:51 Running JavaScript files with Node JS
-14:25 Node module system
-30:24 Node package manager
-39:09 Path module
-45:25 File system
-57:53 HTTP Module
-01:10:29 Callbacks and callback hell
-01:20:45 Promises
-01:26:24 Async Await
-01:31:35 Event Emitter
-01:39:40 Express JS
-02:13:14 EJS Template engine
-02:28:33 Rest API development
-02:59:05 MongoDB and Mongoose basics
-03:40:25 Book store API Development
-04:32:35 Authentication and authorization
-06:01:12 File upload
-06:47:30 Change password, Delete image functionality, sorting and pagination
-07:26:03 Intermediate MongoDB concepts & aggregation
-08:15:38 Node JS with Socket
-08:53:14 Deployment strategies
-09:16:43 Node JS with GraphQL
-10:09:50 Node JS with typescript
+### ⭐▬▬▬▬▬▬ TIMESTAMPS 👋  ▬▬▬▬▬▬⭐
+
+- [00:00](https://www.youtube.com/watch?v=MIJt9H69QVc&t=0s) Intro & demo
+- [06:23](https://www.youtube.com/watch?v=MIJt9H69QVc&t=383s) Installing Node.js
+- [09:51](https://www.youtube.com/watch?v=MIJt9H69QVc&t=591s) Running JavaScript files with Node.js
+- [14:25](https://www.youtube.com/watch?v=MIJt9H69QVc&t=865s) Node module system
+- [30:24](https://www.youtube.com/watch?v=MIJt9H69QVc&t=1824s) Node package manager
+- [39:09](https://www.youtube.com/watch?v=MIJt9H69QVc&t=2349s) Path module
+- [45:25](https://www.youtube.com/watch?v=MIJt9H69QVc&t=2725s) File system
+- [57:53](https://www.youtube.com/watch?v=MIJt9H69QVc&t=3473s) HTTP Module
+- [01:10:29](https://www.youtube.com/watch?v=MIJt9H69QVc&t=4229s) Callbacks and callback hell
+- [01:20:45](https://www.youtube.com/watch?v=MIJt9H69QVc&t=4845s) Promises
+- [01:26:24](https://www.youtube.com/watch?v=MIJt9H69QVc&t=5184s) Async/Await
+- [01:31:35](https://www.youtube.com/watch?v=MIJt9H69QVc&t=5495s) Event Emitter
+- [01:39:40](https://www.youtube.com/watch?v=MIJt9H69QVc&t=5980s) Express.js
+- [02:13:14](https://www.youtube.com/watch?v=MIJt9H69QVc&t=7994s) EJS Template engine
+- [02:28:33](https://www.youtube.com/watch?v=MIJt9H69QVc&t=8913s) REST API development
+- [02:59:05](https://www.youtube.com/watch?v=MIJt9H69QVc&t=10745s) MongoDB and Mongoose basics
+- [03:40:25](https://www.youtube.com/watch?v=MIJt9H69QVc&t=13225s) Book Store API development
+- [04:32:35](https://www.youtube.com/watch?v=MIJt9H69QVc&t=16355s) Authentication and authorization
+- [06:01:12](https://www.youtube.com/watch?v=MIJt9H69QVc&t=21672s) File upload
+- [06:47:30](https://www.youtube.com/watch?v=MIJt9H69QVc&t=24450s) Change password, delete image, sorting & pagination
+- [07:26:03](https://www.youtube.com/watch?v=MIJt9H69QVc&t=26763s) Intermediate MongoDB concepts & aggregation
+- [08:15:38](https://www.youtube.com/watch?v=MIJt9H69QVc&t=29738s) Node.js with Socket.io
+- [08:53:14](https://www.youtube.com/watch?v=MIJt9H69QVc&t=31994s) Deployment strategies
+- [09:16:43](https://www.youtube.com/watch?v=MIJt9H69QVc&t=33403s) Node.js with GraphQL
+- [10:09:50](https://www.youtube.com/watch?v=MIJt9H69QVc&t=36590s) Node.js with TypeScript
 
 ## Goals
 
