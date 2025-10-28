@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import Joi from "joi";
 
+import AuthService from "./../services/auth.service";
+
 class AuthController {
   // Controller methods will go here
 
@@ -17,6 +19,16 @@ class AuthController {
     if(error){
         return res.status(400).json({ message: error.details[0].message });
     }
+
+    // check if the email or username already exists
+
+    // create the user from the auth service
+
+    // respond with success message
+
+    
+
+
   }
 }
 
