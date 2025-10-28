@@ -6,6 +6,12 @@ I will like to pick up learning backend development again. I learnt from the Mos
 
 - [NodeJS Full Course 2024_Complete Backend Development Course_part 1](https://www.youtube.com/watch?v=MIJt9H69QVc) by Sangam Mukherjee
 
+## Goals
+
+- [ ] Relearn the basics of Node.js and Express.js
+- [ ] Build a simple RESTful API using Node.js and Express.js
+- [ ] Understand middleware and routing in Express.js
+
 ## Description from the reference material
 
 🚀 Comprehensive Node.js Development Course
@@ -56,11 +62,5 @@ Embark on a journey to master Node.js with this in-depth course covering everyth
 - [08:53:14](https://www.youtube.com/watch?v=MIJt9H69QVc&t=31994s) Deployment strategies
 - [09:16:43](https://www.youtube.com/watch?v=MIJt9H69QVc&t=33403s) Node.js with GraphQL
 - [10:09:50](https://www.youtube.com/watch?v=MIJt9H69QVc&t=36590s) Node.js with TypeScript
-
-## Goals
-
-- [ ] Relearn the basics of Node.js and Express.js
-- [ ] Build a simple RESTful API using Node.js and Express.js
-- [ ] Understand middleware and routing in Express.js
 
 > Made with :heart: by [@fasakinhenry](https://github.com/fasakinhenry)
