@@ -1,0 +1,24 @@
+{
+  "name": "3_node-package-manager",
+  "version": "1.0.0",
+  "description": "Node Package Manager",
+  "keywords": [
+    "Node",
+    "NPM"
+  ],
+  "homepage": "https://github.com/fasakinhenry/Backend-Mastery#readme",
+  "bugs": {
+    "url": "https://github.com/fasakinhenry/Backend-Mastery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasakinhenry/Backend-Mastery.git"
+  },
+  "license": "ISC",
+  "author": "Fasakin Henry",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
