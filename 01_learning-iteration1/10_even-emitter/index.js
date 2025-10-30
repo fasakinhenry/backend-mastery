@@ -4,7 +4,7 @@ const myFirstEmitter = new EventEmitter();
 
 // Register a listener for the events
 myFirstEmitter.on('greet', (name) => {
-    console.log(`Hello ${name}`);
+  console.log(`Hello ${name}`);
 });
 
-myFirstEmitter.emit('greet', "Fasakin Henry")
+myFirstEmitter.emit('greet', 'Fasakin Henry');
