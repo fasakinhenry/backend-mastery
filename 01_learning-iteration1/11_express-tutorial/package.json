@@ -1,0 +1,25 @@
+{
+  "name": "11_express-tutorial",
+  "version": "1.0.0",
+  "description": "A simple project to learn express and its core API",
+  "keywords": [
+    "express",
+    "server",
+    "middleware"
+  ],
+  "homepage": "https://github.com/fasakinhenry/Backend-mastery#readme",
+  "bugs": {
+    "url": "https://github.com/fasakinhenry/Backend-mastery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasakinhenry/Backend-mastery.git"
+  },
+  "license": "ISC",
+  "author": "Fasakin Henry",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
