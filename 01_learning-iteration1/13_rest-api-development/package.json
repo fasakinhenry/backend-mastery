@@ -1,0 +1,27 @@
+{
+  "name": "13_rest-api-development",
+  "version": "1.0.0",
+  "description": "Learn all the basics of REST API development",
+  "keywords": [
+    "Express",
+    "REST",
+    "API",
+    "Backend",
+    "Node"
+  ],
+  "homepage": "https://github.com/fasakinhenry/Backend-Mastery#readme",
+  "bugs": {
+    "url": "https://github.com/fasakinhenry/Backend-Mastery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasakinhenry/Backend-Mastery.git"
+  },
+  "license": "ISC",
+  "author": "Fasakin Henry",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
