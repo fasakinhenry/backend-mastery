@@ -40,7 +40,7 @@ app.get('/books/:id', (req, res) => {
 // POST /books - Create a new book
 app.post('/books', (req, res) => {
   const newBook = {
-    id: books.length + 1,
+    id: (books.length + 1).toString(),
     title: `Book ${books.length + 1}`,
   };
   books.push(newBook);
@@ -48,6 +48,38 @@ app.post('/books', (req, res) => {
     data: newBook,
     message: 'New book is added successfully',
   });
+});
+
+// PUT /books/:id - Update a book by ID
+app.put('/books/:id', (req, res) => {
+    const book = books.find((b) => b.id === req.params.id);
+    if (book) {
+      book.title = req.body.title || book.title;
+      res.status(200).json({
+        data: book,
+        message: `Book with ID ${req.params.id} is updated successfully`,
+      });
+    } else {
+      res.status(404).json({
+        message: 'Book not found! Please try with a different ID.',
+      });
+    }
+});
+
+// DELETE /books/:id - Delete a book by ID
+app.delete('/books/:id', (req, res) => {
+  const bookIndex = books.findIndex((b) => b.id === req.params.id);
+  if (bookIndex !== -1) {
+    const deletedBook = books.splice(bookIndex, 1);
+    res.status(200).json({
+      data: deletedBook[0],
+      message: `Book with ID ${req.params.id} is deleted successfully`,
+    });
+  } else {
+    res.status(404).json({
+      message: 'Book not found! Please try with a different ID.',
+    });
+  }
 });
 
 const port = 3000;
