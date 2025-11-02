@@ -1,0 +1,21 @@
+{
+  "name": "14_mongodb-basics",
+  "version": "1.0.0",
+  "description": "A simple project to learn mongoDB and mongoose",
+  "keywords": [
+    "MongoDB",
+    "database",
+    "mongoose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Backend-mastery"
+  },
+  "license": "ISC",
+  "author": "Fasakin Henry",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
