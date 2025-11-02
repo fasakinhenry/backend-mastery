@@ -25,7 +25,32 @@ app.get('/books', (req, res) => {
   res.json(books);
 });
 
+// GET /books/:id - Retrieve a book by ID
+app.get('/books/:id', (req, res) => {
+  const book = books.find((b) => b.id === req.params.id);
+  if (book) {
+    res.status(200).json(book);
+  } else {
+    res
+      .status(404)
+      .json({ message: 'Book not found! Please try with a different ID.' });
+  }
+});
+
+// POST /books - Create a new book
+app.post('/books', (req, res) => {
+  const newBook = {
+    id: books.length + 1,
+    title: `Book ${books.length + 1}`,
+  };
+  books.push(newBook);
+  res.status(200).json({
+    data: newBook,
+    message: 'New book is added successfully',
+  });
+});
+
 const port = 3000;
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${port}`);
 });
