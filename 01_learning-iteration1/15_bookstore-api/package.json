@@ -15,14 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fasakinhenry/Backend-Mastery.git"
+    "url": "https://github.com/fasakinhenry/Backend-Mastery.git"
   },
   "license": "ISC",
   "author": "Fasakin Henry",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
