@@ -1,9 +1,36 @@
 {
+  "name": "16_nodejs-auth",
+  "version": "1.0.0",
+  "description": "Learn about authentication by building a real world bookstore app with login and signup",
+  "keywords": [
+    "Authentication",
+    "Authorization",
+    "mongoose",
+    "Node.js",
+    "express",
+    "jwt"
+  ],
+  "homepage": "https://github.com/fasakinhenry/Backend-Mastery#readme",
+  "bugs": {
+    "url": "https://github.com/fasakinhenry/Backend-Mastery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasakinhenry/Backend-Mastery.git"
+  },
+  "license": "ISC",
+  "author": "Fasakin Henry",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.3"
-  }
+  },
+  "devDependencies": {}
 }
