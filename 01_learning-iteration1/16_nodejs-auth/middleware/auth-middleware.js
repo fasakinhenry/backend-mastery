@@ -18,7 +18,7 @@ const authMiddleware = (req, res, next) => {
   } catch (error) {
     return res.status(500).json({
       success: false,
-      message: 'Access denied, No token provided. Please login to continue',
+      message: 'Access denied, Invalid token provided. Please login to continue',
     });
   }
 };
