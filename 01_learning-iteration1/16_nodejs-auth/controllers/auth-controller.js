@@ -23,7 +23,6 @@ const registerUser = async (req, res) => {
     // Hash the password
     const salt = await bcrypt.genSalt(10);
     const hashedPasssword = await bcrypt.hash(password, salt);
-    // Generate a token
     // Add user to database
     const newUser = new User({
       username,
